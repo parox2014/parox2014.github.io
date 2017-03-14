@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Coding For Future</title>
+  
+  <link href="//atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-03-14T09:18:13.279Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Wenyan Du</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>千里之行，始于足下</title>
+    <link href="http://yoursite.com/2017/03/14/my-fisrt-blog/"/>
+    <id>http://yoursite.com/2017/03/14/my-fisrt-blog/</id>
+    <published>2017-03-14T07:10:07.000Z</published>
+    <updated>2017-03-14T09:18:13.279Z</updated>
+    
+    <content type="html"><![CDATA[<p>  想写博客很久了，身边的很多小伙伴也都有个人博客，但一直提不起劲儿。<br>  老实说，自己并不是一个善于表达的人,心里有时明明想的很清楚，但要说出来时，却往往词不达意,言辞匮乏,想写点东西，也不知道如何开头。<br>  俗话说：万事开头难，但如果不克服，就永远开不了头。所以，就从今天开始，迈出第一步。<br>  以后就用它来记录生活中的点点滴滴。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  想写博客很久了，身边的很多小伙伴也都有个人博客，但一直提不起劲儿。&lt;br&gt;  老实说，自己并不是一个善于表达的人,心里有时明明想的很清楚，但要说出来时，却往往词不达意,言辞匮乏,想写点东西，也不知道如何开头。&lt;br&gt;  俗话说：万事开头难，但如果不克服，就永远开不了头。
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+</feed>
