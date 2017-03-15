@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Coding For Future</title>
-  
-  <link href="//atom.xml" rel="self"/>
-  
-  <link href="http://yoursite.com/"/>
-  <updated>2017-03-15T03:21:41.689Z</updated>
-  <id>http://yoursite.com/</id>
-  
-  <author>
-    <name>Wenyan Du</name>
-    
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>读书笔记：面向对象编程</title>
-    <link href="http://yoursite.com/2017/03/15/oop/"/>
-    <id>http://yoursite.com/2017/03/15/oop/</id>
-    <published>2017-03-15T01:48:11.000Z</published>
-    <updated>2017-03-15T03:21:41.689Z</updated>
-    
-    <content type="html"><![CDATA[<p>这篇文章是好多年前，在公司里跟同事做分享时写的一点东西，先拿出来充充数。<br>文章中借鉴了很多书中的东西。比如犀牛书，红皮书等，这些书看似基础，实则博大精深，每看一次都有不同的感受。</p>
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Love life , Love programing"><title>读书笔记：面向对象编程 | Coding For Future</title><link rel="stylesheet" type="text/css" href="//fonts.css.network/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.3.0"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=1.3.0"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">读书笔记：面向对象编程</h1><a id="logo" href="/.">Coding For Future</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a><a href="/about/"><i class="fa fa-user"> About</i></a><a href="/atom.xml"><i class="fa fa-rss"> RSS</i></a></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">读书笔记：面向对象编程</h1><div class="post-meta">Mar 15, 2017<span> | </span><span class="category"><a href="/categories/读书笔记/">读书笔记</a></span></div><a data-thread-key="2017/03/15/oop/" href="/2017/03/15/oop/#comments" class="ds-thread-count"></a><div class="post-content"><p>这篇文章是好多年前，在公司里跟同事做分享时写的一点东西，先拿出来充充数。<br>文章中借鉴了很多书中的东西。比如犀牛书，红皮书等，这些书看似基础，实则博大精深，每看一次都有不同的感受。</p>
 <p><strong>一、概念：</strong></p>
 <blockquote>
 <p>面向对象编程（Object Oriented Programming, OOP, 面向对象程序设计）是一种<strong>计算机编程架构</strong>，OOP的一条基本原则是<em>计算机程序是由单个能够起到子程序作用的单元或对象组合而成</em>，OOP达到了软件工程的三个目标：<strong>重用性、灵活性和扩展性</strong>。为了实现整体运算，每个对象都能够接收信息、处理数据和向其它对象发送信息。首先，面向对象符合人类看待事物的一般规律。其次，采用面向对象方法可以使系统各部分各司其职、各尽所能。为编程人员敞开了一扇大门，使其编程的代码更简洁、更易于维护，并且具有更强的可重用性。  </p>
@@ -103,44 +79,18 @@
 <p>虽然js的对象属性可以在任何时间修改，但我们最好不要直接修改，而是通过该对象提供的接口进行修改。私有方法也不要去调用。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> p1=<span class="keyword">new</span> Person(<span class="string">'xiaoli'</span>);</div><div class="line">p1._name=<span class="string">'taoge'</span>;<span class="comment">//不提倡</span></div><div class="line">p1.setName(<span class="string">'William'</span>);<span class="comment">//正确</span></div><div class="line">p1._sayName();<span class="comment">//不提倡</span></div></pre></td></tr></table></figure>
 <p>最后，面向对象的概念与实现方式基本就这些了，最重要的是思维方式，要达到一切皆对象的境界，当然此对象不是女朋友，程序员哪来的女朋友。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这篇文章是好多年前，在公司里跟同事做分享时写的一点东西，先拿出来充充数。&lt;br&gt;文章中借鉴了很多书中的东西。比如犀牛书，红皮书等，这些书看似基础，实则博大精深，每看一次都有不同的感受。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一、概念：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquot
-    
-    </summary>
-    
-      <category term="读书笔记" scheme="http://yoursite.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="面向对象 原型 原型链 闭包 继承 扩展 复用" scheme="http://yoursite.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E5%8E%9F%E5%9E%8B-%E5%8E%9F%E5%9E%8B%E9%93%BE-%E9%97%AD%E5%8C%85-%E7%BB%A7%E6%89%BF-%E6%89%A9%E5%B1%95-%E5%A4%8D%E7%94%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>千里之行，始于足下</title>
-    <link href="http://yoursite.com/2017/03/14/my-fisrt-blog/"/>
-    <id>http://yoursite.com/2017/03/14/my-fisrt-blog/</id>
-    <published>2017-03-14T07:10:07.000Z</published>
-    <updated>2017-03-14T09:18:13.279Z</updated>
-    
-    <content type="html"><![CDATA[<p>  想写博客很久了，身边的很多小伙伴也都有个人博客，但一直提不起劲儿。<br>  老实说，自己并不是一个善于表达的人,心里有时明明想的很清楚，但要说出来时，却往往词不达意,言辞匮乏,想写点东西，也不知道如何开头。<br>  俗话说：万事开头难，但如果不克服，就永远开不了头。所以，就从今天开始，迈出第一步。<br>  以后就用它来记录生活中的点点滴滴。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  想写博客很久了，身边的很多小伙伴也都有个人博客，但一直提不起劲儿。&lt;br&gt;  老实说，自己并不是一个善于表达的人,心里有时明明想的很清楚，但要说出来时，却往往词不达意,言辞匮乏,想写点东西，也不知道如何开头。&lt;br&gt;  俗话说：万事开头难，但如果不克服，就永远开不了头。
-    
-    </summary>
-    
-      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-</feed>
+</div><div class="tags"><a href="/tags/面向对象-原型-原型链-闭包-继承-扩展-复用/">面向对象 原型 原型链 闭包 继承 扩展 复用</a></div><div class="post-nav"><a href="/2017/03/14/my-fisrt-blog/" class="next">千里之行，始于足下</a></div><div data-thread-key="2017/03/15/oop/" data-title="读书笔记：面向对象编程" data-url="http://yoursite.com/2017/03/15/oop/" class="ds-share flat"><div class="ds-share-inline"><ul class="ds-share-icons-16"><li data-toggle="ds-share-icons-more"><a href="javascript:void(0);" class="ds-more">Share:</a></li><li><a href="javascript:void(0);" data-service="weibo" class="ds-weibo">微博</a></li><li><a href="javascript:void(0);" data-service="qzone" class="ds-qzone">QQ空间</a></li><li><a href="javascript:void(0);" data-service="qqt" class="ds-qqt">腾讯微博</a></li><li><a href="javascript:void(0);" data-service="wechat" class="ds-wechat">微信</a></li></ul><div class="ds-share-icons-more"></div></div></div><div id="comments"><div data-thread-key="2017/03/15/oop/" data-title="读书笔记：面向对象编程" data-url="http://yoursite.com/2017/03/15/oop/" data-author-key="1" class="ds-thread"></div></div></div></div></div><div class="layout-r hidden_mid_and_down"><div id="sidebar"><div class="widget"><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="请输入关键字..."/></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> Categories</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/杂谈/">杂谈</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> Tags</i></div><div class="tagcloud"><a href="/tags/杂谈/" style="font-size: 15px;">杂谈</a> <a href="/tags/面向对象-原型-原型链-闭包-继承-扩展-复用/" style="font-size: 15px;">面向对象 原型 原型链 闭包 继承 扩展 复用</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-fei"> Archive</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> Recent</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/03/15/oop/">读书笔记：面向对象编程</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/14/my-fisrt-blog/">千里之行，始于足下</a></li></ul></div><div class="widget"><div class="comments-title"><i class="fa fa-commt"> Recent Comments</i></div><div data-num-items="5" data-show-avatars="0" data-show-time="1" data-show-admin="0" data-excerpt-length="32" data-show-title="1" class="ds-recent-comments"></div></div></div></div></div><a id="totop" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.3.0" async></script><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |<a href="/atom.xml">订阅本站</a> |<span>联系博主：<a href="mailto:parox2014@gmail.com" target="_blank" class="fa fa-email"> </a><a href="null" target="_blank" class="fa fa-weibo"></a><a href="https://github.com/parox2014" target="_blank" class="fa fa-github"> </a></span></p><p><span> Copyright &copy;<a href="/." rel="nofollow">Wenyan Du</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span><span><a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> Theme </a>by<a rel="nofollow" target="_blank" href="https://github.com/chaooo"> Charles.</a></span></p></div></div></div><script>var duoshuoQuery = {short_name:'parox2014'};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    document.getElementsByTagName('body')[0].appendChild(ds);
+})();
+</script><script type="text/javascript" src="/js/search.json.js?v=1.3.0"></script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4b579ff117f652dfe1d9218d5faac394";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();</script></body></html>
